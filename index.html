@@ -115,9 +115,9 @@
 		<figure>
 			<img src="/img/KaiDavis.png">
 			<blockquote>
-				I just tried The Magic Email out last night and the results were tremendous - I emailed a cold prospect (who I hadn't heard from in 3-months) a one-line email at 9pm with your recommended phrasing and heard back from them within 15 minutes. We have a meeting scheduled for next week to review + sign off on a proposal. <!-- Without a doubt, there's something special about the phrasing and attitude conveyed in The Magic Email. It's a highly tactical solution, but it works extremely well. -->
+				I just tried The Magic Email out last night and the results were tremendous - I emailed a cold prospect (who I hadn't heard from in 3-months) a one-line email at 9pm with your recommended phrasing and heard back from them within 15 minutes. We have a meeting scheduled for next week to review + sign off on a proposal.
 			</blockquote><figcaption>
-				<cite><a href="http://www.lookshiny.com/">Kai Davis</a></cite>
+				<cite><a href="http://www.kaidavis.com/you/">Kai Davis</a></cite>
 			</figcaption>
 		</figure>
 
@@ -144,44 +144,103 @@
 	
 </body>
 
+<!-- Start of Async Drift Code -->
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('pepkfadabtna');
+</script>
+<!-- End of Async Drift Code -->
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '117652558760472');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=117652558760472&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-40085719-26', 'themagicemail.com');
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3275197-62', 'auto');
+  ga('require', 'displayfeatures');
+  ga('require', 'linkid', 'linkid.js’);
   ga('send', 'pageview');
+
 </script>
 
 <!-- Drip -->
 <script type="text/javascript">
   var _dcq = _dcq || [];
   var _dcs = _dcs || {}; 
-  _dcs.account = '7628989';
+  _dcs.account = '1028318';
+  
   (function() {
     var dc = document.createElement('script');
     dc.type = 'text/javascript'; dc.async = true; 
-    dc.src = '//tag.getdrip.com/7628989.js';
+    dc.src = '//tag.getdrip.com/1028318.js';
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(dc, s);
   })();
 </script>
 
-<script>(function() {
-var _fbq = window._fbq || (window._fbq = []);
-if (!_fbq.loaded) {
-var fbds = document.createElement('script');
-fbds.async = true;
-fbds.src = '//connect.facebook.net/en_US/fbds.js';
-var s = document.getElementsByTagName('script')[0];
-s.parentNode.insertBefore(fbds, s);
-_fbq.loaded = true;
-}
-_fbq.push(['addPixelId', '661316233968843']);
-})();
-window._fbq = window._fbq || [];
-window._fbq.push(['track', 'PixelInitialized', {}]);
-</script>
-<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=661316233968843&amp;ev=PixelInitialized" /></noscript>
+<script>
+// Logs a page to Drip (getDrip.com) by tagging and adding a Drip event
+// 
+// Based on code by Pat Maddox (thanks Pat!)
+// Updated by Eric Davis (me)
+// Kai Davis (http://i2.kym-cdn.com/photos/images/newsfeed/001/079/173/ed2.png)
+//
+function dripTagPage() {
+  // Wrap it so we don't break any other JS on the page
+  try {
+    // Remove any WP title post-fixes
+    var pageName = document.title.replace('','')
 
+    // Tag e.g. "Checkout - The Title of This"
+    _dcq.push(["identify", {
+      tags: ["TheMagicEmail.com - " + pageName]
+    }]);
+
+    // Add event like "Visited URL"
+    _dcq.push(["track", "Visited themagicemail.com" + window.location.pathname, {title: pageName, path: window.location.pathname}])
+  } catch (e) {
+    // no-op
+  }
+  return true;
+}
+
+dripTagPage();
+</script>
 </html>
