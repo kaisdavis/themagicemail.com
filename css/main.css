@@ -1,0 +1,280 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}audio,canvas,progress,video{display:inline-block;vertical-align:baseline;}audio:not([controls]){display:none;height:0;}[hidden],template{display:none;}a{background:transparent;}a:active,a:hover{outline:0;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:bold;}dfn{font-style:italic;}h1{font-size:2em;margin:0.67em 0;}mark{background:#ff0;color:#000;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}img{border:0;}svg:not(:root){overflow:hidden;}figure{margin:1em 40px;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}pre{overflow:auto;}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em;}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0;}button{overflow:visible;}button,select{text-transform:none;}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}input{line-height:normal;}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto;}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}legend{border:0;padding:0;}textarea{overflow:auto;}optgroup{font-weight:bold;}table{border-collapse:collapse;border-spacing:0;}td,th{padding:0;}
+
+/* ==========================================================================
+	HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/
+   ========================================================================== */
+
+html {
+    color: #444;
+    font-size: 1em;
+    line-height: 1.625;
+}
+
+::-moz-selection {
+    background: #F3BC17;
+    text-shadow: none;
+}
+
+::selection {
+    background: #F3BC17;
+    text-shadow: none;
+}
+
+textarea { resize: vertical; }
+
+.clear {clear: both;}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/montserrat-bold-webfont.eot');
+    src: url('/fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/montserrat-bold-webfont.woff') format('woff'),
+         url('/fonts/montserrat-bold-webfont.ttf') format('truetype'),
+         url('/fonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/montserrat-regular-webfont.eot');
+    src: url('/fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('/fonts/montserrat-regular-webfont.ttf') format('truetype'),
+         url('/fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-style: normal;
+	font-weight: normal;
+}
+
+/* ==========================================================================
+   Kurt Elster's custom styles | @kurtinc
+   ========================================================================== */
+
+html {border-top: 5px solid #C0E2FD;}
+
+body { font-family: 'Montserrat', Georgia, Times, "Times New Roman", serif; 
+max-width: 1200px;
+margin: auto;
+}
+
+
+header {margin: 3em 0;}
+
+#mobilebanner {display: none;}
+
+#leftrail, #rightrail {
+	float: left;
+	width: 21%;
+	padding-top: 20px;
+}
+
+#rightrail {padding-top: 700px;}
+
+article {
+	float: left;
+	width: 56%;
+	padding: 1.6em 1%;
+}
+
+#socials {
+	clear: both;
+	display: block;
+	margin: 1em auto 1.5em auto;
+	width: auto;
+	text-align: center;
+	line-height: .6;
+}
+
+.facebook {
+	display: inline-block;
+	margin-right: 5%;
+}
+
+.twitter {
+	display: inline-block;
+	text-align: left;
+}
+
+h1,h2,h3 {
+	line-height: 1em;
+	margin-top: 0;
+	text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning */
+}
+
+h1 { 
+	color: #363636;
+	font-size: 2.68em;
+	text-align: center;
+}
+
+h2 { 
+	color: #666666; 
+	font-size: 1.87em;
+	line-height: 1.25em;
+	text-align: center;
+}
+
+h3 { 
+	color: #019797; 
+	font-size: 1.31em;
+}
+
+figure { 
+	margin-top: 2em; 
+	margin-bottom: 2em;
+}
+
+figure img { 
+	float: left;
+	margin-right: 1em;
+	padding-bottom: 3em;
+}
+
+blockquote + figcaption {
+	display: block;
+	font-size: inherit;
+	text-align: right;
+}
+
+blockquote + figcaption:before { content: "—"; }
+
+blockquote:before { content: "“"; }
+blockquote:after { content: "”"; }
+
+a { color: #3062C6; }
+a:link, a:visited { text-decoration:none; }
+a:hover,a:active { text-decoration:underline; transition: 0.5s ease;}
+
+aside {
+	position: relative;
+	padding: 1em;
+	font-size: 1.31em; 
+	font-weight: bold;
+}
+aside:before {
+	content: "";
+	display: block;
+	float: left;
+	text-indent: -9999px;
+	margin-top: 10px;
+	width: 50px;
+	height: 50px;
+	background: url(/img/arrow.svg);
+	background-size: 50px 50px;
+}
+
+#signature { margin-top: 2em; }
+
+footer { 
+	width: 90%;
+	max-width: 685px;
+	margin: 1.6em auto;
+	text-align: center;
+	border-top: 1px solid #AFAFAF;
+	padding-top: 1.6em;
+}
+
+footer img { 
+	width: 39%; 
+	min-width: 200px;
+	margin: 1.6em;
+}
+
+small {
+	font-size: 65%;
+	display: block;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   Media Queries for Responsive Design
+   ========================================================================== */
+
+@media only screen and (max-width: 765px) {
+	body {font-size: 15px;}
+
+	#mobilebanner {display: block; width: 320px; margin: auto;}
+
+	#leftrail, #rightrail {display: none;}	
+	
+	article {width: 98%;}
+	
+	h1 { font-size: 2em; }
+	h2 { font-size: 1.5em; }
+	h3 { text-align:center; }
+	#socials { display: none; }
+	article { padding-top: 0em; }
+	blockquote { margin: 0; }
+	figure img { 
+		width: 44px; 
+		height: 44px;
+		padding-bottom: 0em;
+		}
+	p span:before {
+		width: 25px;
+		height: 25px;
+		background-size: 25px 25px;
+	} 
+}
+
+/* ==========================================================================
+   Print styles.
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited { text-decoration: underline; }
+
+    a[href]:after { content: " (" attr(href) ")"; }
+
+    abbr[title]:after { content: " (" attr(title) ")"; }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after { content: ""; }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead { display: table-header-group; }
+
+    tr,
+    img { page-break-inside: avoid; }
+
+    img { max-width: 100% !important; }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 { page-break-after: avoid; }
+	
+	#leftrail, #rightrail { display:none; }
+}

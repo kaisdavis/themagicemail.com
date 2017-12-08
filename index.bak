@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>The Magic Email: A follow-up that works</title>
+	<meta name="description" content="The Magic Email is a follow-up email you can send to stop being ignored and start getting shit done.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="/css/main.css" rel="stylesheet">
+	
+	<meta name="twitter:card" value="summary">
+	<meta property="og:title" content="The Magic Email" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://themagicemail.com/" />
+	<meta property="og:image" content="http://themagicemail.com/img/opengraph.jpg" />
+	<meta property="og:description" content="Get replies to your ignored emails." />
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+	<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196">
+	<link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+	
+	<!--[if lte IE 9]>
+        <script src="js/modernizr-2.8.0.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<div id="top"></div>
+	
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=182313298638928&version=v2.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
+	<header>
+		<h1>The Magic Email</h1>
+		<h2>Stop being ignored and<br>
+			start getting shit done.</h2>
+	</header>
+	
+	<div id="socials">
+		<div class="twitter">
+			<a class="twitter-share-button" data-text="Sick of being ignored? Try the Magic Email and get responses to your emails today - " data-url="http://themagicemail.com" data-via="kurtinc" href="https://twitter.com/share">Tweet</a> <script>
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+			</script>
+		</div>
+		<div class="fb-share-button" data-href="http://themagicemail.com/" data-type="button_count"></div>
+	</div>
+	
+	<article>
+		<h3>Being ignored sucks.</h3>
+
+		<p>We’ve all been there. You're trying to do business with someone and you send them an email. They ignore you. A week later you send a polite follow-up. And they ignore you again.</p>
+
+		<p>If you’re like I was, now your ego is bruised, and you still don’t have an answer to your email. Worse yet, you’ve wasted so much time trying to chase down answers.</p>
+
+		<figure>
+			<img src="/img/GlennStoval.png">
+			<blockquote>
+				Dude you weren't kidding. I had been dealing with radio silence on two proposals for weeks. Sent this out, got responses from both in a matter of hours. This is seriously magic.
+			</blockquote><figcaption>
+				<cite><a href="https://twitter.com/gsto">Glenn Stovall</a></cite>
+			</figcaption>
+		</figure>
+
+		<h3>Stop being ignored</h3>
+
+		<p>As principal of a web development agency, I live &amp; die by email - last year, I sent 3,927 of them. A lot of those emails would have gone unanswered had I not discovered The Magic Email. I started calling it The Magic Email because it's revived cold leads, dead deals, and even gotten a response from my landlord about fixing my dryer. (And yes, the dryer got fixed)</p>
+
+		<p>The Magic Email is simple, and you can use it today to stop being ignored, and start getting replies. Ready? Okay, <strong>here it is:</strong></p>
+		
+		<aside>
+			Since I have not heard from you on this, I have to assume your priorities have changed.
+		</aside>
+
+		<p>That's it. Nothing else. Send just that one line. It's simple, intentionally vague, and absolutely effective. I get at least a 50% response rate with most of them being positive. I adapted it (based on split-testing) from Blair Enns' excellent <a href="http://www.winwithoutpitching.com/make-money-today" title="make">Closing The Loop</a> email.</p>
+
+		<figure>
+			<img src="/img/NickHance.png">
+			<blockquote>
+				I just used this with a client I've been trying to connect with for more than a year. I've left messages, I've sent emails, I've called once a week for a month last year. This email just got me a response with a scheduled meeting in 3 minutes. Holy god.
+			</blockquote><figcaption>
+				<cite><a href="https://twitter.com/nhance">Nick Hance</a></cite>
+			</figcaption>
+		</figure>
+
+		<h3>How's it work anyway?</h3>
+
+		<p>It works because it makes it clear to the recipient that you've moved on. Since people are loss averse, their natural inclination is to reply immediately in order to keep you from walking away. You're taking back control of the situation by declaring it over.</p>
+
+		<p>It's the email equivalent of what I do with my kids at the park. They don't want to leave so I say, &ldquo;Okay, bye, I'm leaving&rdquo; and start walking away. Immediately they yell, &ldquo;Waiiit!&rdquo; &amp; run to catch up with me (and I've yet to actually have to leave them there.)</p>
+
+		<!-- <figure>
+			<img src="/img/KaiDavis.png">
+			<blockquote>
+				Holy. Crap. The Magic Email works.<br>It <s>fucking</s> works.
+			</blockquote><figcaption>
+				<cite><a href="https://twitter.com/kaisdavis">Kai Davis</a></cite>
+			</figcaption>
+		</figure> -->
+
+		<h3>But I can't say that!</h3>
+
+		<p>I know what you're thinking. You think you can't send this because it just <em>seems</em> so rude. But it's not rude, it's just direct. The person who doesn't answer your emails is rude. You're just business. Business you can take or leave. Remember, this person has already been ignoring you for weeks so <strong>you have nothing to lose</strong>. I promise you'll get an answer or closure. Worst case scenario is you'll get more radio silence, but at least you will have given yourself permission to move on.</p>
+
+		<p>Try it. I promise more people will be impressed by your tenacity than annoyed by it.</p>
+	</article>
+	
+	<footer>
+		<strong>What next?</strong> Follow <a href="https://twitter.com/kurtinc" title="Kurt Elster on Twitter">@kurtinc</a> and tell me what The Magic Email did for you.
+		<a href="http://ethercycle.com/" title="Responsive Web Design &amp; Development Company - Ethercycle&#8480; — Chicago, IL"><img src="/img/ethercycle.png"></a>
+		<small><a href="/privacy/">Privacy Policy</a></small>
+	</footer>
+	
+</body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-40085719-26', 'themagicemail.com');
+  ga('send', 'pageview');
+</script>
+
+</html>
