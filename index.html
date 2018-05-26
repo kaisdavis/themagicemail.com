@@ -130,8 +130,8 @@
 		<div id="signature">
 			Cheers &mdash;<br>
 			<img src="/img/signature.png" width="200px"><br>
-			Kurt Elster<br>
-			<a href="http://ethercycle.com/">ethercycle.com</a>
+			Kai Davis<br>
+			<a href="http://kaidavis.com/">kaidavis.com</a>
 		</div>
 			
 	</article>
@@ -200,47 +200,4 @@ drift.load('pepkfadabtna');
 
 </script>
 
-<!-- Drip -->
-<script type="text/javascript">
-  var _dcq = _dcq || [];
-  var _dcs = _dcs || {}; 
-  _dcs.account = '1028318';
-  
-  (function() {
-    var dc = document.createElement('script');
-    dc.type = 'text/javascript'; dc.async = true; 
-    dc.src = '//tag.getdrip.com/1028318.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(dc, s);
-  })();
-</script>
-
-<script>
-// Logs a page to Drip (getDrip.com) by tagging and adding a Drip event
-// 
-// Based on code by Pat Maddox (thanks Pat!)
-// Updated by Eric Davis (me)
-// Kai Davis (http://i2.kym-cdn.com/photos/images/newsfeed/001/079/173/ed2.png)
-//
-function dripTagPage() {
-  // Wrap it so we don't break any other JS on the page
-  try {
-    // Remove any WP title post-fixes
-    var pageName = document.title.replace('','')
-
-    // Tag e.g. "Checkout - The Title of This"
-    _dcq.push(["identify", {
-      tags: ["TheMagicEmail.com - " + pageName]
-    }]);
-
-    // Add event like "Visited URL"
-    _dcq.push(["track", "Visited themagicemail.com" + window.location.pathname, {title: pageName, path: window.location.pathname}])
-  } catch (e) {
-    // no-op
-  }
-  return true;
-}
-
-dripTagPage();
-</script>
 </html>
