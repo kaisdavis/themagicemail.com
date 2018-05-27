@@ -128,7 +128,7 @@ figure {
 figure img { 
 	float: left;
 	margin-right: 1em;
-	padding-bottom: 3em;
+	padding-bottom: 1em; /* Used to be 3em */
 }
 
 blockquote + figcaption {
