@@ -139,16 +139,13 @@ blockquote + figcaption {
 
 blockquote + figcaption:before { content: "—"; }
 
-blockquote:before { content: "“"; }
-blockquote:after { content: "”"; }
-
 a { color: #3062C6; }
 a:link, a:visited { text-decoration:none; }
 a:hover,a:active { text-decoration:underline; transition: 0.5s ease;}
 
 aside {
 	position: relative;
-	padding: 1em;
+	margin: 1em 0em;
 	font-size: 1.31em; 
 	font-weight: bold;
 }
@@ -285,4 +282,40 @@ small {
     h3 { page-break-after: avoid; }
 	
 	#leftrail, #rightrail { display:none; }
+}
+
+figure.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2em 0;
+}
+
+figure.testimonial img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+figure.testimonial .content {
+    display: flex;
+    align-items: center;
+}
+
+figure.testimonial blockquote {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+figure.testimonial figcaption {
+    display: block;
+    font-size: 0.875em;
+    text-align: right;
+    margin-top: 0.5em;
+    align-self: flex-end;
+}
+
+.highlight {
+    background-color: yellow;
 }
