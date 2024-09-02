@@ -410,11 +410,14 @@ figure.testimonial figcaption {
     padding: 10px 0;
 }
 
-.faq-answer.active {
-    display: block;
-}
 
 .faq-question.active::after {
     content: '\2212'; /* Minus sign */
 }
+
+.faq-answer.active {
+    display: block;
+}
+
+
 
